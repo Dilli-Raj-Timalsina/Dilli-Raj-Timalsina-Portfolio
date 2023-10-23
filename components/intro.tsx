@@ -32,7 +32,7 @@ export default function Intro() {
           >
             <Image
               src={"/logoMe.jpg"}
-              alt="Ricardo portrait"
+              alt="Dilli Raj Timalsina"
               width="192"
               height="192"
               quality="95"

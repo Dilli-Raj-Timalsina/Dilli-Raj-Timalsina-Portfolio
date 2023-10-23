@@ -1,9 +1,7 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 
 export const links = [
@@ -38,17 +36,25 @@ export const experiencesData = [
     title: " Backend Developer Intern",
     location: "Nepal, Kathmandu",
     description:
-      "After a 6-month full-stack web dev bootcamp at Norma Academy, I interned for 3 months at ReflexITSolution, focusing on backend development and learning real-world web development best practices.",
+      "After a 6-month full-stack web dev bootcamp at Norma Academy, I interned for 3 months at ReflexITSolution, focusing on backend development and learning real-world web development best practices. Worked on Express.Js for creating Authentication and Authorization Part .",
     icon: React.createElement(LuGraduationCap),
-    date: "2022",
+    date: "2022/01/10-2022/03/15",
   },
   {
-    title: "Full Stack Web Developer",
+    title: "Full Stack MERN Developer",
+    location: "Freelance/Contract Based",
+    description:
+      "Worked on E-commerce Project , Although My task was mainly focused on backend I was working on frontend and deployement Part as well . Build the E-commerce from groudup-scratch with Typescript MERN Tech Stack .",
+    icon: React.createElement(CgWorkAlt),
+    date: "2023/09/10-now",
+  },
+  {
+    title: "Full Stack Web Developer at Hyperce",
     location: "remote",
     description:
-      "I served as a full-stack web developer during my tenure, constructing a functional business solution for a freelance client based in Nepal. My work involved creating a fully managed EdTech API and implementing a headless UI .",
+      "Joined Hyperse team as a full stack web dev .",
     icon: React.createElement(CgWorkAlt),
-    date: "2023",
+    date: "2023/10/01 - now",
   },
   
 ] as const;
@@ -66,7 +72,7 @@ export const projectsData = [
   {
     title: "Minor Projects",
     description:
-      "I have successfully completed more than 15+ minor projects, showcasing a wide range of skills and interests. Some of these projects include Natours API, Language Translator, Typing Training, Transaction App, Typing Speed, Ludo Game, Snake Game, Blind Guess Game, and many more. You can explore all of these projects on my GitHub profile .",
+      "I have successfully completed more than 15+ minor projects, showcasing a wide range of skills and interests. Some of these projects include Natours API, Language Translator, Typing Training, Transaction App, Ludo Game, Snake Game, Blind Guess Game, and many more. You can explore all of these projects on my GitHub profile .",
     tags: [],
     imageUrl: wordanalyticsImg,
     link:"https://github.com/Dilli-Raj-Timalsina"
@@ -93,4 +99,5 @@ export const skillsData = [
   "Java",
   "Mongoose",
   "Framer Motion",
+  "GraphQL",
 ] as const;
