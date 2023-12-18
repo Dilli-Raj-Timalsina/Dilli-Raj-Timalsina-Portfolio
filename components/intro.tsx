@@ -64,7 +64,7 @@ export default function Intro() {
       >
         <span className="font-bold">Hello, I'm Dilli Raj.</span> I'm a{" "}
         <span className="font-bold">Full Stack Web Developer</span> with{" "}
-        expertise in<span className="font-bold"> Backend Development .</span> 
+       1.5+ years of experience and expertise in<span className="font-bold"> Backend Development .</span> 
       </motion.h1>
 
       <motion.div
@@ -89,7 +89,7 @@ export default function Intro() {
          <span> </span>
         <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
-          href="https://docs.google.com/document/d/e/2PACX-1vRTG48roFT0Tz45i7WINfV1ufMC01Yzp1Kv-sJG12dfgKB9JkRtbLiY0IBiMbHqnQ/pub"
+          href="https://docs.google.com/document/d/1ctZQPEv8TrZeTvYp5k-52qnV4FYIrurjhmA4m5W3XuU/edit?usp=sharing"
           target="_blank"
           rel="noopener noreferrer" 
           download
